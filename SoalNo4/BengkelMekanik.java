@@ -24,7 +24,7 @@ class Bengkel {
 
     public void tambahMekanik(Mekanik mekanik) {
         daftarMekanik.add(mekanik);
-        System.out.println("✅ " + mekanik.getNama() + " ditugaskan di " + namaBengkel);
+        System.out.println(mekanik.getNama() + " ditugaskan di " + namaBengkel);
     }
 
     public void tampilkanDaftarMekanik() {
@@ -41,7 +41,7 @@ class Bengkel {
 
 public class BengkelMekanik {
     public static void main(String[] args) {
-        Bengkel bengkelKu = new Bengkel("Bengkel Maju Jaya");
+        Bengkel bengkelKu = new Bengkel("Bengkel Selamat Jaya");
 
         Mekanik m1 = new Mekanik("Andi");
         Mekanik m2 = new Mekanik("Siti");

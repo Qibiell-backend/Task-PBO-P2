@@ -28,7 +28,7 @@ public class Mekanik {
 
 class MainMekanik {
     public static void main(String[] args) {
-        Mekanik m1 = new Mekanik("Budi", 4500000, "Kelistrikan");
+        Mekanik m1 = new Mekanik("Habil", 4500000, "Programmer");
         System.out.println("Nama: " + m1.getNama());
         System.out.println("Gaji: " + m1.getGaji());
         System.out.println("Spesialisasi: " + m1.getSpesialisasi());

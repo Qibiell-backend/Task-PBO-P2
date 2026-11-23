@@ -60,7 +60,7 @@ public class PerpustakaanHashMap {
 
         } while (pilihan != 5);
 
-        System.out.println("Program selesai.");
+        System.out.println("Terima kasih telah menggunakan layanan kami.");
         input.close();
     }
 }

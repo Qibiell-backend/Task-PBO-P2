@@ -53,7 +53,7 @@ class Bengkel {
 
 public class BengkelSukuCadang {
     public static void main(String[] args) {
-        Bengkel bengkelKu = new Bengkel("Bengkel Sejahtera");
+        Bengkel bengkelKu = new Bengkel("Bengkel Cak Hus");
 
         bengkelKu.tambahSukuCadang("Oli Mesin", 20);
         bengkelKu.tambahSukuCadang("Busi", 50);
